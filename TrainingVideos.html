@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <style>
+        .header { grid-area: header; }
+        .box1 { grid-area: box1; }
+        .box2 { grid-area: box2; }
+        .box3 { grid-area: box3; }
+        .box4 { grid-area: box4; }
+        
+        .container {
+          display: grid;
+          grid-template-areas:
+            'header header header header header header'
+            'box1 box1 box1 box2 box2 box2'
+            'box3 box3 box3 box4 box4 box4';
+          grid-gap: 10px;
+          background-color: #2196F3;
+          padding: 10px;
+        }
+        
+        .container > div {
+          background-color: rgba(255, 255, 255, 0.8);
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+        </style>
+  
+  <!--<link rel="stylesheet" type="text/css" href="karate.css"> -->
+</head>
+
+<body> 
+
+
+<div class = "container">
+  <div class = "header">header</div>
+  <div class = "box1"> TaikiyoKu Katas </div>
+  <div class = "box2"> Heian Katas </div>
+  <div class = "box3"> Empi </div>
+  <div class = "box4"> Jion </div>
+
+</div>
+
+
+
+
+
+
+</body>
+
+</html>
