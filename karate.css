@@ -1,19 +1,29 @@
+.menu { grid-area: header; }
+.signUpSheet { grid-area: menu; }
+.missionStatement { grid-area: main; }
+
+.Contianer {
+  display: grid;
+  grid-template-areas: 
+  'menu menu menu menu menu'
+  'signUpSheet missionStatement missionStatement missionStatement missionStatement'
+  'signUpSheet missionStatement missionStatement missionStatement missionStatement'
+}
+
 h1{
   color:green;
 }
 ul{
   text-align: center;
-
-
 }
 
 body{
-  background-image: url(tubby.jpg);
+  /*background-image: url(tubby.jpg);*/
   z-index: 1;
 
 }
 li{
-background-color: #9DD1F1;
+background-color: rgb(28, 173, 71);
   text-transform:uppercase;
   display: inline-block;
    width:150px;
